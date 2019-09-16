@@ -20,7 +20,7 @@ This is your **class repo**. Anything and everything we do in class, outside of 
         <td>
             <ul>
                 <li>
-                    <a href="TODO">Intro Deck</a>
+                    <a href="https://drive.google.com/open?id=1xbrVsx8h87KnHjtaOBteZVSjDk282E4h">Intro Deck</a>
                 </li>
             </ul>
         </td>

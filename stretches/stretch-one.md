@@ -8,7 +8,7 @@ const treasureMap = [
   ['', '', ''],
 ];
 
-const findTheTreasure = (map, trasure) => {
+const findTheTreasure = (map, treasure) => {
   // YOUR CODE
 };
 

@@ -44,5 +44,19 @@ This is your **class repo**. Anything and everything we do in class, outside of 
                 </li>
             </ul>
         </td>
-      </tr>
+    </tr>
+    <tr>
+        <td><b>9.23.19</b></td>
+        <td> Flex Box </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d21e8b17e342a0004519c40/content/5d24f1f78d25e100040ecc17/text">Workshop</a>
+                </li>
+                <li>
+                     <a href="https://youtu.be/zgSTaWU7010">Flex Lecture</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>

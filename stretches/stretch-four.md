@@ -19,7 +19,7 @@ const things = [
 
 const howManySubstrings = (arr, str) => {
   // YOUR CODE
-}
+};
 
 howManySubstrings(things, 'r'); // => 6
 howManySubstrings(things, 'ra'); // => 4

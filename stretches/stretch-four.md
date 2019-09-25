@@ -21,7 +21,7 @@ const howManySubstrings = (arr, str) => {
   // YOUR CODE
 };
 
-howManySubstrings(things, 'r'); // => 6
-howManySubstrings(things, 'ra'); // => 4
-howManySubstrings(things, 'z'); // => 0
+console.log(howManySubstrings(things, 'r')); // => 6
+console.log(howManySubstrings(things, 'ra')); // => 4
+console.log(howManySubstrings(things, 'z')); // => 0
 ```

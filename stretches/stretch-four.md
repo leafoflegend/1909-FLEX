@@ -17,7 +17,7 @@ const things = [
   },
 ];
 
-const howManySubstrings = (arr, str) => {
+const howManySubstrings = (arr, str) => { 
   // YOUR CODE
 };
 

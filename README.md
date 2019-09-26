@@ -59,4 +59,18 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>9.25.19</b></td>
+        <td> JS and the DOM </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d27361cb628f600042d1051/landing">Workshop</a>
+                </li>
+                <li>
+                     <a href="https://youtu.be/SHpt5pX0aGE">DOM Lecture</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>

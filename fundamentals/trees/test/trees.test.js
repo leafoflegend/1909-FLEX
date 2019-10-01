@@ -1,3 +1,4 @@
+'use strict';
 const jsdom = require('jsdom');
 const { JSDOM } = jsdom;
 const fs = require('fs');
@@ -50,12 +51,11 @@ describe('the website should render correctly', () => {
     );
   });
 
-  let rbSpan;
   let rbButton;
   let greenBox;
-  const redBoxChildren = Array.from(redBox.childNodes);
 
   test('the red box should contain a span element with text, a button, and a styled green box', () => {
+    const redBoxChildren = Array.from(redBox.childNodes);
     expect(redBoxChildren.length).toBe(3);
 
     const redBoxChildNodes = redBoxChildren.map(({ nodeName }) => nodeName);
@@ -64,7 +64,7 @@ describe('the website should render correctly', () => {
       expect.arrayContaining(['BUTTON', 'DIV', 'SPAN']),
     );
 
-    rbSpan = redBoxChildren.find(child => child.nodeName === 'SPAN');
+    const rbSpan = redBoxChildren.find(child => child.nodeName === 'SPAN');
     rbButton = redBoxChildren.find(child => child.nodeName === 'BUTTON');
     greenBox = redBoxChildren.find(child => child.nodeName === 'DIV');
 
@@ -86,15 +86,15 @@ describe('the website should render correctly', () => {
     // grab the console.log outputs from the click handler
     const consoleOutputs = [];
     const originalLog = global.console.log;
-    const mockLog = (...output) => {
-      if (output.length === 1) consoleOutputs.push(output[0]);
+    function mockLog(outputLogs, ...output) {
+      if (output.length === 1) outputLogs.push(output[0]);
       else if (output.every(el => typeof el === 'string')) {
         consoleOutputs.push(output.join(''));
       } else {
-        consoleOutputs.push(output);
+        outputLogs.push(output);
       }
-    };
-    global.console.log = mockLog;
+    }
+    global.console.log = mockLog.bind(null, consoleOutputs);
 
     rbButton.click();
 
@@ -106,8 +106,6 @@ describe('the website should render correctly', () => {
     global.console.log = originalLog;
   });
 
-  // const gbChildren = Array.from(greenBox.childNodes);
-  let gbText;
   let yellowBox;
 
   test('the green box should contain some text and a styled yellow box', () => {
@@ -116,9 +114,8 @@ describe('the website should render correctly', () => {
 
     expect(gbChildNodes).toEqual(expect.arrayContaining(['#text', 'DIV']));
 
-    gbText = gbChildren.find(({ nodeName }) => nodeName === '#text');
-
-    expect(gbText.data).toEqual('im a green box');
+    const gbText = greenBox.textContent;
+    expect(gbText).toEqual('im a green box');
 
     yellowBox = gbChildren.find(({ nodeName }) => nodeName === 'DIV');
     const ybStyles = Object.values(yellowBox.style);
@@ -136,6 +133,7 @@ describe('the website should render correctly', () => {
     );
     expect(yellowBox.style.backgroundColor).toEqual('yellow');
   });
+
   test('the yellow box should contain two colored boxes', () => {
     const ybChildren = Array.from(yellowBox.childNodes);
     expect(ybChildren.length).toBe(2);

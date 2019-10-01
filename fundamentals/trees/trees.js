@@ -1,4 +1,6 @@
-const ourTree = {};
+const ourTree = {
+  // YOUR CODE HERE
+};
 
 const DOMRenderer = {
   append: (node, child) => node.appendChild(child),

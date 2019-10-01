@@ -73,4 +73,18 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>9.30.19</b></td>
+        <td> Forms </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d2e1f95c880a600045192b7/content/5d2fa058ef4d580004fd15ab/text">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/N9unlJGYEBQ">Lecture</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>

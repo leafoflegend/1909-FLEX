@@ -3,8 +3,6 @@ const { JSDOM } = jsdom;
 const fs = require('fs');
 const path = require('path');
 
-const { simulateClick } = require('./helpers');
-
 // jest and jsdom don't play nice with each other so we have to
 // inject the html and script into our mock as strings
 const htmlString = fs

@@ -16,11 +16,9 @@ const ourTree = {
       name: 'the-button',
       onclick: ev => {
         console.log(ev.target);
-        console.log(ev.target.name, 'was clicked.');
+        console.log(ev.target.name, ' was clicked.');
       },
-      children: [
-        'click me plz',
-      ]
+      children: ['click me plz'],
     },
     {
       type: 'div',
@@ -60,11 +58,11 @@ const ourTree = {
                 width: '100px',
                 height: '100px',
               },
-            }
-          ]
-        }
-      ]
-    }
+            },
+          ],
+        },
+      ],
+    },
   ],
 };
 
@@ -102,10 +100,12 @@ const treeMaker = (soil, tree, renderer) => {
       tree.children.forEach(child => treeMaker(node, child, renderer));
     }
   } else {
-    node = renderer.createText(tree)
+    node = renderer.createText(tree);
   }
 
   renderer.append(soil, node);
 };
 
-treeMaker(document.getElementById('root'), ourTree, DOMRenderer);
+const root = document.getElementById('root');
+
+treeMaker(root, ourTree, DOMRenderer);

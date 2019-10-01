@@ -1,0 +1,32 @@
+{
+  "name": "trees",
+  "version": "1.0.0",
+  "description": "build your own DOM!",
+  "main": "trees.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leafoflegend/1909-FLEX.git"
+  },
+  "keywords": [
+    "Isn't",
+    "the",
+    "DOM",
+    "fun",
+    "?"
+  ],
+  "author": "Eliot Szwajkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leafoflegend/1909-FLEX/issues"
+  },
+  "homepage": "https://github.com/leafoflegend/1909-FLEX#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "jsdom": "^15.1.1"
+  }
+}

@@ -89,11 +89,11 @@ This is your **class repo**. Anything and everything we do in class, outside of 
     </tr>
     <tr>
         <td><b>10.2.19</b></td>
-        <td> Forms </td>
+        <td> HTML Trees </td>
         <td>
             <ul>
                 <li>
-                    <a href="https://github.com/leafoflegend/1909-FLEX/tree/master/fundamentals/trees">Workshop</a>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d9528fe104a4e00040e5df4/landing">Workshop</a>
                 </li>
                 <li>
                     <a href="https://youtu.be/EfIYjpschNU">Lecture</a>

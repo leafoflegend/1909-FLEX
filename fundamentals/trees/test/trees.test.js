@@ -19,6 +19,13 @@ const dom = new JSDOM(htmlString, domOptions);
 
 const { document } = dom.window;
 
+const DOMRenderer = {
+  append: (node, child) => node.appendChild(child),
+  create: type => document.createElement(type),
+  createText: str => document.createTextNode(str),
+  remove: el => el.parentNode.removeChild(el),
+};
+
 const body = document.querySelector('body');
 const scriptEl = document.createElement('script');
 scriptEl.innerHTML = scriptString;
@@ -144,5 +151,19 @@ describe('the website should render correctly', () => {
         expect.arrayContaining(['background-color', 'width', 'height']),
       );
     });
+  });
+
+  test('you are actually writing the tree using javascript in "ourTree"', () => {
+    const root = document.getElementById('root');
+    const randomNum = `Randomly Generated Number: ${Math.random() * 500}`;
+
+    dom.window.ourTree = {
+      type: 'button',
+      innerText: randomNum,
+    };
+
+    dom.window.treeMaker(root, dom.window.ourTree, DOMRenderer);
+
+    expect(root.childNodes[0].innerText).toEqual(randomNum);
   });
 });

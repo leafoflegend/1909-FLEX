@@ -153,17 +153,32 @@ describe('the website should render correctly', () => {
     });
   });
 
-  test('you are actually writing the tree using javascript in "ourTree"', () => {
-    const root = document.getElementById('root');
-    const randomNum = `Randomly Generated Number: ${Math.random() * 500}`;
-
-    dom.window.ourTree = {
-      type: 'button',
-      innerText: randomNum,
+  test('You actually wrote this as a javascript object and didnt cheat by just using create and append', () => {
+    const counts = {};
+    const typeMap = {
+      div: true,
+      span: true,
+      button: true,
     };
 
-    dom.window.treeMaker(root, dom.window.ourTree, DOMRenderer);
+    const recurseTypes = (obj) => {
+      Object.values(obj).forEach(val => {
+        if (typeof val === 'object') {
+          recurseTypes(val);
+        } else if (typeof val === 'string' && typeMap[val]) {
+          counts[val] ? ++counts[val] : counts[val] = 1;
+        }
+      })
+    };
 
-    expect(root.childNodes[0].innerText).toEqual(randomNum);
+    recurseTypes(dom.window.ourTree);
+
+    expect(counts).toEqual(
+      expect.objectContaining({
+        div: 5,
+        span: 1,
+        button: 1,
+      })
+    )
   });
 });

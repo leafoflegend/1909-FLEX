@@ -1,6 +1,8 @@
 // Our representation of the DOM as a JS object.
+const root = document.getElementById('root');
+
 const ourTree = {
-  // YOUR CODE HERE
+  // YOUR CODE
 };
 
 const DOMRenderer = {
@@ -12,10 +14,12 @@ const DOMRenderer = {
 
 // The function that uses the rendering API object above (DOMRenderer) to build the page as expected!
 const treeMaker = (soil, tree, renderer) => {
-  // YOUR CODE HERE
+  // YOUR CODE
 };
 
 // DONT TOUCH BELOW
-const root = document.getElementById('root');
-
 treeMaker(root, ourTree, DOMRenderer);
+
+window.treeMaker = treeMaker;
+window.ourTree = ourTree;
+window.DOMRenderer = DOMRenderer;

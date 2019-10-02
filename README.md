@@ -87,4 +87,20 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>10.2.19</b></td>
+        <td> Forms </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://github.com/leafoflegend/1909-FLEX/tree/master/fundamentals/trees">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/EfIYjpschNU">Lecture</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>
+
+

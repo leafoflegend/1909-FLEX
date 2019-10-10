@@ -101,6 +101,31 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>10.7.19</b></td>
+        <td> Create a Grid </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d2e28bbc880a6000451940f/content/5d3116f323513200048271fd/text">Workshop</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td><b>10.7.19</b></td>
+        <td> Game of Life </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5a3839fedc3d510004d71ed5/content/5a3839fedc3d510004d71ee4/text">Workshop</a>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d9f661b87060e0004ada08b/content/5d9f66728efb3f00049fc8c9/text">Homework</a>
+                </li>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>
 
 

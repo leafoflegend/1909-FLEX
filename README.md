@@ -119,9 +119,12 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             <ul>
                 <li>
                     <a href="https://learn.fullstackacademy.com/workshop/5a3839fedc3d510004d71ed5/content/5a3839fedc3d510004d71ee4/text">Workshop</a>
+                </li>
                 <li>
                     <a href="https://learn.fullstackacademy.com/workshop/5d9f661b87060e0004ada08b/content/5d9f66728efb3f00049fc8c9/text">Homework</a>
                 </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=A_5NCjrx51k&list=PL0medk5vA90rk-XLRMdBnNrpij0AfE8Dv&index=9&t=0s">Review</a>
                 </li>
             </ul>
         </td>

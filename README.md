@@ -129,6 +129,20 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>10.14.19</b></td>
+        <td> Promises </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5da3b0a71e7ef6000481f94b/content/5da3b1185c45170004927820/text">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/6pKTA3eRzq4">Lecture</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>
 
 

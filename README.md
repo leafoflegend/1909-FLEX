@@ -144,6 +144,23 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>10.16.19</b></td>
+        <td> Promises/Fetch </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d2f9a8e8584c3000447e1c5/landing">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/rII3VXSbNx0">Review</a>
+                </li>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d4f0aa8c5763400048a9ef0/content/5d4f0ae5c5763400048a9efa/text">Homework</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>
 
 

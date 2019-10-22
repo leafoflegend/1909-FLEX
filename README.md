@@ -5,6 +5,7 @@
 This is your **class repo**. Anything and everything we do in class, outside of class, that we feel like sharing, linking, or just saving will go in this repo. That means that you can find _everything and anything relevant to class on here except for the workshops themselves (and even for those, we will have links._
 
 ### Our Stretch Repo
+
 [**Can be found here!**](https://github.com/russellwmoore/1909-stretches/)
 
 ### A Table of Our Stuff
@@ -161,6 +162,18 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+     <tr>
+        <td><b>10.21.19</b></td>
+        <td> Promises.all </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d37b057433f6f0004771cb7/content/5d37b06b6d654300045d7f1a/text">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/plsd4xSj-_c">Review</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>
-
-

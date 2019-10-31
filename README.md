@@ -176,4 +176,18 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+     <tr>
+        <td><b>10.28.19</b></td>
+        <td> Controlled Forms </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d51dd3378ab0300046fbf4b/landing">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/Q2YO6FKV9j0">Lecture</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>

@@ -176,4 +176,18 @@ This is your **class repo**. Anything and everything we do in class, outside of 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td><b>10.30.19</b></td>
+        <td> Adding a Feature and CRUD </td>
+        <td>
+            <ul>
+                <li>
+                    <a href="https://learn.fullstackacademy.com/workshop/5d57498742a3d300049e1041/content/5d57569cc85d630004383187/text">Workshop</a>
+                </li>
+                <li>
+                    <a href="https://youtu.be/plsd4xSj-_c">Review</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
 </table>

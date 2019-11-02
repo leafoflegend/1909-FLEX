@@ -185,7 +185,7 @@ This is your **class repo**. Anything and everything we do in class, outside of 
                     <a href="https://learn.fullstackacademy.com/workshop/5d57498742a3d300049e1041/content/5d57569cc85d630004383187/text">Workshop</a>
                 </li>
                 <li>
-                    <a href="https://youtu.be/plsd4xSj-_c">Review</a>
+                    <a href="https://youtu.be/qxIXBDKcs6U">Review</a>
                 </li>
             </ul>
         </td>
